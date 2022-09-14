@@ -9,3 +9,11 @@ function validateEmailPassword() {
 }
 
 buttonForm.addEventListener('click', validateEmailPassword);
+
+function desableButton() {
+  const inputCheckbox = document.getElementById('agreement');
+  if (inputCheckbox.checked) {
+    document.getElementById('submit-btn').disabled = false;
+  }
+}
+document.getElementById('agreement').addEventListener('click', desableButton);
