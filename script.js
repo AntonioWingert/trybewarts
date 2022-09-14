@@ -19,15 +19,15 @@ function desableButton() {
 }
 
 function insertValues() {
-  document.querySelector('#form-data p:nth-of-type(1)').innerText = `Nome: 
-  ${document.getElementById('input-name').value} 
+  document.querySelector('#form-data p:nth-of-type(1)').innerText = `Nome:
+  ${document.getElementById('input-name').value}
   ${document.getElementById('input-lastname').value}`;
-  document.querySelector('#form-data p:nth-of-type(2)').innerText = `Email: 
+  document.querySelector('#form-data p:nth-of-type(2)').innerText = `Email:
   ${document.getElementById('input-email').value}`;
-  document.querySelector('#form-data p:nth-of-type(3)').innerText = `Casa: 
+  document.querySelector('#form-data p:nth-of-type(3)').innerText = `Casa:
   ${document.getElementById('house').options[document.getElementById('house').selectedIndex].value}
   `;
-  document.querySelector('#form-data p:nth-of-type(4)').innerText = `Família: 
+  document.querySelector('#form-data p:nth-of-type(4)').innerText = `Família:
   ${document.querySelector('input[name="family"]:checked').value}`;
 }
 
@@ -44,11 +44,18 @@ function information(event) {
     }
   }
   document.querySelector('#form-data p:nth-of-type(5)').innerText = `Matérias: ${listaMaterias}`;
-  document.querySelector('#form-data p:nth-of-type(6)').innerText = `Avaliação: 
+  document.querySelector('#form-data p:nth-of-type(6)').innerText = `Avaliação:
   ${document.querySelector('input[name="rate"]:checked').value}`;
-  document.querySelector('#form-data p:nth-of-type(7)').innerText = `Observações: 
+  document.querySelector('#form-data p:nth-of-type(7)').innerText = `Observações:
   ${document.getElementById('textarea').value}`;
 }
 
 document.getElementById('submit-btn').addEventListener('click', information);
 document.getElementById('agreement').addEventListener('click', desableButton);
+
+function contar() {
+  const area = document.getElementById('textarea').value;
+  document.getElementById('counter').innerHTML = 500 - area.length;
+}
+
+contar();
