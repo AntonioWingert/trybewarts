@@ -98,3 +98,10 @@ hr {
   width: 75%;
   margin-left: 15%;
 }
+
+.email-house-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
