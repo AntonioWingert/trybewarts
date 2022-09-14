@@ -97,6 +97,8 @@ main {
 hr {
   width: 75%;
   margin-left: 15%;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .email-house-container {
@@ -105,3 +107,51 @@ hr {
   justify-content: center;
 }
 
+.label-container {
+  display: flex;
+  width: 70%;
+  align-self: center;
+}
+
+.label-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+}
+
+.element-label {
+  margin-bottom: 20px;
+}
+
+
+.label-right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: justify;
+}
+
+.labels-right-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+}
+
+.label-title {
+  margin-bottom: 15px;
+}
+
+.element-right-label {
+  margin-right: 20px;
+}
+
+.avaliable-container {
+  display: flex;
+  align-self: center;
+}
+
+.rate {
+  margin-right: 8px;
+}
