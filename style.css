@@ -185,3 +185,15 @@ hr {
   color: white;
   margin-top: 50px;
 }
+
+.textarea-container {
+  display: flex;
+  margin-left: 45px;
+  text-align: start;
+}
+
+#textarea-input {
+  width: 150%;
+  height: 150px;
+  text-align: end;
+}
