@@ -5,6 +5,10 @@
   font-family: Volkhov, serif;
 }
 
+body {
+  background-color: rgb(240, 240, 240);
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -57,4 +61,40 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.title-form {
+  font-size: 1.8rem;
+  padding: 25px;
+}
+
+.main-container {
+  display: flex;
+  align-content: space-between;
+}
+
+.container-left {
+  text-align: center;
+}
+
+.input-form-container-left {
+  width: 35%;
+  padding: 15px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#house {
+  width: 28%;
+  padding: 15px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+}
+
+hr {
+  width: 75%;
+  margin-left: 15%;
 }

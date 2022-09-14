@@ -22,18 +22,28 @@
       </form>
     </section>
   </header>
-  <main>
-    <form id="evaluation-form">
-      <input id="input-name" type="text" placeholder="Nome">
-      <input id="input-lastname" type="text" placeholder="Sobrenome">
-      <input id="input-email" type="email" placeholder="Email">
-      <select name="" id="house">
-        <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-        <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-        <option id="corvinode-house" value="Corvinode">Corvinode</option>
-        <option id="pytherina-house" value="Pytherina">Pytherina</option>
-      </select>
-    </form>
+  <main class="main-container">
+    <section class="container-left">
+      <h2 class="title-form">Formulário de Avaliação</h2>
+      <form id="evaluation-form">
+        <section class="name-lastname-container">
+          <input id="input-name" type="text" placeholder="Nome" class="input-form-container-left">
+          <input id="input-lastname" type="text" placeholder="Sobrenome" class="input-form-container-left">
+        </section>
+        <section class="email-house-container">
+          <input id="input-email" type="email" placeholder="Email" class="input-form-container-left">
+          <label for="house-select">Casa:
+            <select name="house-select" id="house">
+              <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+              <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+              <option id="corvinode-house" value="Corvinode">Corvinode</option>
+              <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
+          </label>
+        </section>
+      </form>
+      <hr>
+    </section>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="trybewarts logo">
   </main>
   <footer>Direitos reservados à Trybewarts©</footer>
