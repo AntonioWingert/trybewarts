@@ -6,18 +6,18 @@ Bem-vindo ao meu repositório de projetos desenvolvidos no curso de formação T
 
 <h1>O que a aplicação propõe?</h1>
 
-<p>--Escrever sobre o aplicativo--</p>
+<p>Um formulário divertido desenvolvido para o usuário se imaginar no mundo fantástico de Harry Potter!</p>
 
 <h1>Arquivos desenvolvidos.</h1>
 
-<p>--Arquivos desenvolvidos.--</p>
+<p>Todo o HTML e CSS foi desenvolvido junto a dois colegas!</p>
 
 <h1>Como utilizar.</h1>
 
 <p>No gif abaixo você pode encontrar algumas das funcionalidades possíveis na aplicação, para acessa-lá em seu navegador, você pode encontrar o link para acesso ao meu portfólio na sessão abaixo.</p>
 
-<h2 align="center"> inserir gif
-  <img alt="gif-readme" title="nome-projeto" src="./github/"/>
+<h2 align="center">
+  <img alt="gif-readme" title="nome-projeto" src="./github/trybewarts.gif"/>
 </h2>
 
 <h1>Portfólio / projetos online.</h1>
